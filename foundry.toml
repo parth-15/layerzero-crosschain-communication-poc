@@ -3,4 +3,9 @@ src = "src"
 out = "out"
 libs = ["lib"]
 
+[rpc_endpoints]
+polygon = "${POLYGON_URL}"
+[etherscan]
+polygon = { key = "${ETHERSCAN_API_KEY}", chain=127 }
+
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
